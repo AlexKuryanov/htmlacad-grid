@@ -18,3 +18,11 @@ Travel blog article layout - "Traveler's Blog". This is a trendy article about t
 [Layout in Figma](https://www.figma.com/file/8ayeNK6wi8H9cqnnoeeZCv/travelers?t=FCKAKl91tQALAWXl-0)
 
 [Result](https://alexkuryanov.github.io/htmlacademy-grid/travelers-blog/)
+
+### Case 3: Floral boutique
+
+Layout of the catalog of the flower shop "Floral Boutique". This is a typical catalog with little choice.
+
+[Layout in Figma](https://www.figma.com/file/NXWHLndZQaebPDTK07X6hN/FloralBoutique?node-id=75%3A2&t=9lLx1mQqCgOLZnYl-0)
+
+[Result](https://alexkuryanov.github.io/htmlacademy-grid/floral-boutique/)
