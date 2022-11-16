@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Floral-boutique</title>
+</head>
+
+<body class="page-body">
+  <header class="page-header">
+    <nav class="page-nav container">
+      <a class="logo header-logo">
+        <img class="logo-img" src="assets/svg/logotype.svg" alt="logotype" width="177" height="17">
+      </a>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#!" class="nav-link">Каталог</a>
+        </li>
+        <li class="nav-item">
+          <a href="#!" class="nav-link">Подписка</a>
+        </li>
+        <li class="nav-item">
+          <a href="#!" class="nav-link">Отзывы</a>
+        </li>
+        <li class="nav-item">
+          <a href="#!" class="nav-link">Контакты</a>
+        </li>
+      </ul>
+      <a class="phone-link" href="tel:+79239995566">+ 7 (923) 999 55 66</a>
+      <a class="cart" href="#!">
+        <svg width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M6.10011 10.7778V4.66667C6.10011 3.69421 6.51099 2.76158 7.24237 2.07394C7.97375 1.38631 8.96571 1 10 1C11.0344 1 12.0263 1.38631 12.7577 2.07394C13.4891 2.76158 13.9 3.69421 13.9 4.66667V10.7778M17.6959 23H2.30414C2.12431 23.0005 1.94632 22.966 1.78141 22.8985C1.61651 22.8311 1.46828 22.7322 1.3461 22.6082C1.22393 22.4841 1.13045 22.3376 1.0716 22.1778C1.01274 22.018 0.98978 21.8485 1.00417 21.68L2.10915 8.23555C2.13534 7.92864 2.28379 7.64232 2.5248 7.43385C2.76581 7.22538 3.08163 7.11012 3.40912 7.11111H16.5909C16.9184 7.11012 17.2342 7.22538 17.4752 7.43385C17.7162 7.64232 17.8647 7.92864 17.8909 8.23555L18.9958 21.68C19.0102 21.8485 18.9873 22.018 18.9284 22.1778C18.8695 22.3376 18.7761 22.4841 18.6539 22.6082C18.5317 22.7322 18.3835 22.8311 18.2186 22.8985C18.0537 22.966 17.8757 23.0005 17.6959 23Z"
+            stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </a>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <section class="heading">
+      <div class="container heading-container">
+        <h2 class="section-title heading-title">Каталог</h2>
+      </div>
+    </section>
+    <section class="filter">
+      <div class="container filter-container">
+        <h2 class="section-title visually-hidden">Фильтры</h2>
+        <form class="filter-form">
+          <select class="filter-select" name="category" id="category">
+            <option value="">Категория</option>
+          </select>
+          <select class="filter-select" name="flowers" id="flowers">
+            <option value="">Цветы</option>
+          </select>
+          <select class="filter-select" name="price" id="price">
+            <option value="">Цена</option>
+          </select>
+        </form>
+      </div>
+    </section>
+    <section class="catalog">
+      <div class="container catalog-container">
+        <h2 class="section-title visually-hidden">Каталог</h2>
+        <div class="cards">
+          <div class="card">
+            <h3 class="card-title">Букет «Весна»</h3>
+            <img class="card-img" src="assets/img/photo1.jpg" alt="Букет Весна">
+            <p class="card-price">1 500 ₽</p>
+            <button class="card-btn">Заказать</button>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Букет «Признание»</h3>
+            <img class="card-img" src="assets/img/photo2.jpg" alt="Букет «Признание»">
+            <p class="card-price">3 500 ₽</p>
+            <button class="card-btn">Заказать</button>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Букет «Сюрприз»</h3>
+            <img class="card-img" src="assets/img/photo3.jpg" alt="Букет «Сюрприз»">
+            <p class="card-price">2 700 ₽</p>
+            <button class="card-btn">Заказать</button>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Букет «Апрель»</h3>
+            <img class="card-img" src="assets/img/photo4.jpg" alt="Букет «Апрель»">
+            <p class="card-price">2 600 ₽</p>
+            <button class="card-btn">Заказать</button>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Букет «Сухоцветы»</h3>
+            <img class="card-img" src="assets/img/photo5.jpg" alt="Букет «Сухоцветы»">
+            <p class="card-price">1 800 ₽</p>
+            <button class="card-btn">Заказать</button>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Букет «Нежность»</h3>
+            <img class="card-img" src="assets/img/photo6.jpg" alt="Букет «Нежность»">
+            <p class="card-price">2 900 ₽</p>
+            <button class="card-btn">Заказать</button>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Букет «Яркость»</h3>
+            <img class="card-img" src="assets/img/photo7.jpg" alt="Букет «Яркость»">
+            <p class="card-price">3 300 ₽</p>
+            <button class="card-btn">Заказать</button>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Букет «Любовь»</h3>
+            <img class="card-img" src="assets/img/photo8.jpg" alt="Букет «Любовь»">
+            <p class="card-price">4 200 ₽</p>
+            <button class="card-btn">Заказать</button>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Букет «Ласка»</h3>
+            <img class="card-img" src="assets/img/photo9.jpg" alt="Букет «Ласка»">
+            <p class="card-price">4 800 ₽</p>
+            <button class="card-btn">Заказать</button>
+          </div>
+        </div>
+        <a class="see-more-link" href="#!">Смотреть еще</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <nav class="footer-nav container">
+      <a class="logo footer-logo" href="#">
+        <img class="logo-img" src="assets/svg/logotype.svg" alt="logotype" width="177" height="17">
+      </a>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#!" class="nav-link">Каталог</a>
+        </li>
+        <li class="nav-item">
+          <a href="#!" class="nav-link">Подписка</a>
+        </li>
+        <li class="nav-item">
+          <a href="#!" class="nav-link">Отзывы</a>
+        </li>
+        <li class="nav-item">
+          <a href="#!" class="nav-link">Контакты</a>
+        </li>
+      </ul>
+      <ul class="socials-list">
+        <li class="socials-item">
+          <a href="#!" class="socials-link">
+            <img class="socials-icon" src="assets/svg/instagram.svg" alt="instagram-icon" width="20" height="20">
+          </a>
+        </li>
+        <li class="socials-item">
+          <a href="#!" class="socials-link">
+            <img class="socials-icon" src="assets/svg/facebook.svg" alt="facebook-icon" width="20" height="20">
+          </a>
+        </li>
+        <li class="socials-item">
+          <a href="#!" class="socials-link">
+            <img class="socials-icon" src="assets/svg/pinterest.svg" alt="pinterest-icon" width="20" height="20">
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+
+</html>
