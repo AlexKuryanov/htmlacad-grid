@@ -144,7 +144,7 @@
 
 .filter {
   padding: 0;
-  padding-bottom: 10px;
+  padding-bottom: 8px;
   border: none;
   border-bottom: 1px solid var(--border-color);
   background-color: var(--basic-bg);
