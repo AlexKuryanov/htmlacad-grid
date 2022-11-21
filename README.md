@@ -26,3 +26,11 @@ Layout of the catalog of the flower shop "Floral Boutique". This is a typical ca
 [Layout in Figma](https://www.figma.com/file/NXWHLndZQaebPDTK07X6hN/FloralBoutique?node-id=75%3A2&t=9lLx1mQqCgOLZnYl-0)
 
 [Result](https://alexkuryanov.github.io/htmlacademy-grid/floral-boutique/)
+
+### Case 4: Internet-shop Furly
+
+Layout of the catalog on the website of the brand of women's clothing "Furly". This is a typical catalog for a monobrand online store.
+
+[Layout in Figma](https://www.figma.com/file/bed3eftwpi1Ux4OsUNsdbY/furly?node-id=58%3A52&t=7xfs1KrklpV4kIUI-0)
+
+[Result](https://alexkuryanov.github.io/htmlacademy-grid/furly/)
