@@ -84,6 +84,17 @@
   color: inherit;
   text-decoration: none;
   padding: 0 5px;
+  transition: all 0.2s ease;
+}
+
+.site-menu-link:hover,
+.site-menu-link:focus {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.site-menu-link:active {
+  opacity: 0.5;
 }
 
 .user-menu {
@@ -101,6 +112,16 @@
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
+  transition: all 0.2s ease;
+}
+
+.user-menu-link:hover,
+.user-menu-link:focus {
+  opacity: 0.8;
+}
+
+.user-menu-link:active {
+  opacity: 0.5;
 }
 
 .link-entrance {
@@ -156,6 +177,13 @@
   background-repeat: no-repeat;
   background-position: 100% 30%;
   cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filter:hover,
+.filter:focus {
+  border-bottom: 1px solid var(--text-color);
+  color: var(--text-color);
 }
 
 /* Main catalog */
@@ -207,6 +235,16 @@
   background-repeat: no-repeat;
   border: none;
   cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.article-button:hover,
+.article-button:focus {
+  opacity: 0.8;
+}
+
+.article-button:active {
+  opacity: 0.5;
 }
 
 .main-button-more {
@@ -225,6 +263,17 @@
   line-height: 130%;
   font-weight: 500;
   cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.button-more:hover,
+.button-more:focus {
+  background-color: var(--text-color);
+  color: var(--basic-bg);
+}
+
+.button-more:active {
+  opacity: 0.7;
 }
 
 /* Page footer */
@@ -258,6 +307,29 @@
   color: inherit;
   font: inherit;
   text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.confidence-link:hover,
+.confidence-link:focus,
+.contacts-phone:hover,
+.contacts-phone:focus,
+.contacts-mail:hover,
+.contacts-mail:focus,
+.socials-link:hover,
+.socials-link:focus,
+.services-menu-link:hover,
+.services-menu-link:focus {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.confidence-link:active,
+.contacts-phone:active,
+.contacts-mail:active,
+.socials-link:active,
+.services-menu-link:active {
+  opacity: 0.5;
 }
 
 .footer-contacts,
@@ -291,14 +363,26 @@
 }
 
 .subscribe-form-input {
+  width: 100%;
   padding-top: 50px;
   padding-bottom: 6px;
   border: none;
   background-color: var(--footer-bg);
+  color: var(--border-color);
   font-size: 16px;
   line-height: 130%;
   border-bottom: 1px solid var(--border-color);
-  width: 100%;
+  transition: all 0.2s ease;
+}
+
+.subscribe-form-input::placeholder {
+  transition: all 0.2s ease;
+  color: var(--border-color);
+}
+
+.subscribe-form-input:hover::placeholder,
+.subscribe-form-input:focus::placeholder {
+  color: var(--text-color);
 }
 
 .subscribe-form-button {
@@ -317,4 +401,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   cursor: pointer;
+  opacity: 0.2;
+  transition: all 0.2s ease;
+}
+
+.subscribe-form:hover .subscribe-button,
+.subscribe-form:focus .subscribe-button {
+  opacity: 1;
 }
